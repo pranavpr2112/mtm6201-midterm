@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.nav-item:hover {
+    background-color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: rgba(0,0,0,0.7) url('images/hero-background.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #d69e3d;
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome h3, .welcome h4 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin: 20px 0;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image-group img {
+    width: 45%;
+    height: auto;
+}
+
+/* Offerings Section */
+.offerings {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.offerings h3, .offerings h4 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.offering {
+    margin: 20px 0;
+}
+
+.offering img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.offering h5 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.offering p {
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Explore Menu Section */
+.explore-menu {
+    position: relative;
+    background: rgba(0,0,0,0.7) url('images/coffee-shop.jpeg') center/cover no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.explore-menu h3 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.explore-menu .button-link {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-menu .button-link:hover {
+    background-color: #d69e3d;
+}
+
+/* Locations Section */
+.locations {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.locations h3 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.locations .button-link {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.locations .button-link:hover {
+    background-color: #d69e3d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .image-group {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-group img {
+        width: 30%;
+    }
+}
